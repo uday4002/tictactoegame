@@ -3,7 +3,7 @@ import Gameboard from './Gameboard';
 import io from "socket.io-client";
 import { useState} from 'react';
 
-const socket=io.connect("http://localhost:3002");
+const socket=io.connect("https://tictactoegame-backend.onrender.com");
 
 function App() {
   const [room,setRoom]=useState("");
